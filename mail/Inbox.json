@@ -1,0 +1,17 @@
+{
+	"mails": [{
+		"id": "mail-1",
+		"from": "Masha",
+		"to": "Oleg",
+		"subject": "Hi",
+		"date":"03-10-2013",
+		"folder":"Inbox"
+	},{
+		"id": "mail-2",
+		"from": "Nadya",
+		"to": "Oleg",
+		"subject": "Hello",
+		"date":"03-09-2013",
+		"folder":"Inbox"
+	}]
+}

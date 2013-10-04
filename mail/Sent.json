@@ -1,0 +1,21 @@
+{
+	"mails": [{
+		"from": "Oleg",
+		"to": "Masha",
+		"subject": "Hello",
+		"date":"02-10-2013",
+		"folder":"Sent"
+	},{
+		"from": "Oleg",
+		"to": "Valera",
+		"subject": "How Are you?",
+		"date":"01-10-2013",
+		"folder":"Sent"
+	},{
+		"from": "Oleg",
+		"to": "Nadya",
+		"subject": "RE:Hello",
+		"date":"15-09-2013",
+		"folder":"Sent"
+	}]
+}

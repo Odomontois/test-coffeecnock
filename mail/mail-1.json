@@ -1,0 +1,8 @@
+{
+	"id": "mail-1",
+	"from": "Masha",
+	"to": "Oleg",
+	"subject": "Hi",
+	"date":"03-10-2013",
+	"messageContent": "<h2> How are you??? </h2><br> I'm so missing..."
+}
