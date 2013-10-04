@@ -16,23 +16,23 @@
       __extends(WebMailViewModel, _super);
 
       function WebMailViewModel() {
-        var _this = this;
+        var _ref;
         this.folders = ["Inbox", "Archive", "Sent", "Spam"];
-        this.chosenFolderId = ko.observable();
-        this.chosenFolderData = ko.observable();
-        this.chosenMailData = ko.observable();
-        this.goToFolder = function(folder) {
-          return location.hash = folder;
-        };
-        this.goToMail = function(mail) {
-          return location.hash = "" + mail.folder + "/" + mail.id;
-        };
+        _ref = this.observables(3), this.chosenFolderId = _ref[0], this.chosenFolderData = _ref[1], this.chosenMailData = _ref[2];
         this.regPatterns({
           '#:folder': this.hashFolder,
           '#:folder/:mailId': this.hashMail,
           '': this.hashDefault
         });
       }
+
+      WebMailViewModel.prototype.goToFolder = function(folder) {
+        return location.hash = folder;
+      };
+
+      WebMailViewModel.prototype.goToMail = function(mail) {
+        return location.hash = "" + mail.folder + "/" + mail.id;
+      };
 
       WebMailViewModel.prototype.hashFolder = function(sammy) {
         var _this = this;
